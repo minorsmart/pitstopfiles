@@ -10,7 +10,7 @@ export default class Gasten extends Component {
         <Image src="assets/gast.jpg" className="header-image" />
           <Grid>
             <Row>
-              <Col xs={12} sm={8} className="main-section">
+              <Col xs={12} sm={12} className="main-section">
                 <h2>Gasten</h2>
                  <h3>Pitstop</h3>
                   <p>
@@ -78,12 +78,6 @@ export default class Gasten extends Component {
                      >Verstuur</Button>
                   </FormGroup>
                 </form>
-              </Col>
-              <Col xs={12} sm={4} className="sidebar-section">
-                <Image src="assets/person-laptop.jpg" className="profile-pic" />
-                <p>
-                  Ruimte inplannen voor informatie Pitchdag S2 met terugblik op oorspronkelijke pitches.
-                </p>
               </Col>
             </Row>
           </Grid>

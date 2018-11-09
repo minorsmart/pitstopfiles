@@ -9,12 +9,12 @@ export default class Nieuws extends Component {
         <Image src="assets/pitch.jpg" className="header-image" />
           <Grid>
             <Row>
-              <Col xs={12} sm={8} className="main-section">
+              <Col xs={12} sm={12} className="main-section">
                 <h2>Nieuws</h2>
                 <hr/>
                 <h4>Seminar MSI/DBI S1</h4>
                 <p>
-                  Samen met de <a href="https://dbi.bkhan.nl/" target="_blank" rel="noreferrer noopener">Minor Digital Business & Innovation </a> 
+                  Samen met de <a href="https://dbi.bkhan.nl/" target="_blank" rel="noreferrer noopener">Minor Digital Business & Innovation </a>
                   zal op <span className="special-text">28 JANUARI 2019 </span> een seminar worden georganiseerd omtrent technologie en business innovatie.
                   Het programma start om 19:00 en eindigt om 22:00u.
                   {/* Informatie Seminar. Instructies deelname. Promotie en sponsoring. Recruiters. */}
@@ -38,12 +38,6 @@ export default class Nieuws extends Component {
                 </p>
                 <p>
                   Kijk <a href="https://minorsmart.github.io/pitch/" target="_blank" rel="noreferrer noopener">hier</a> voor een impressie van de laatste Pitchdag.
-                </p>
-              </Col>
-              <Col xs={12} sm={4} className="sidebar-section">
-                <Image src="assets/person-laptop.jpg" className="profile-pic" />
-                <p>
-                  Ruimte inplannen voor informatie Pitchdag S2 met terugblik op oorspronkelijke pitches.
                 </p>
               </Col>
             </Row>
