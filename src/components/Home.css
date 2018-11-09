@@ -26,8 +26,22 @@
   border: none;
   border-radius: 0;
   background-color: #2892D7;
+  margin-top: 2em;
+}
+
+.btn-info {
+  background-image: none;
+  border: none;
+  border-radius: 0;
+  background-color: #2892D7;
+  margin-top: 2em;
 }
 
 h3 {
   margin-bottom: 1em;
+}
+
+.special-text {
+  font-family: 'Fredoka One', cursive;
+  color: DodgerBlue ;
 }

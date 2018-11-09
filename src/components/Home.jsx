@@ -8,8 +8,10 @@ export default class Home extends Component {
       return (
         <Grid>
           <Jumbotron>
-            <h2>MSI Pitstop 2018</h2>
-            <p>Kom inspiratie opdoen voor je Smart Ambities!</p>
+            <h2>MSI Pitstop 2019 S1</h2>
+            <p>Wil je eindelijk je Smart ambities realiseren? Zoek je hiervoor inspiratie?
+            Kom op <span className="special-text">VRIJDAG 11 JANUARI 2019</span> naar de Hogeschool van Arnhem en Nijmegen voor een ontmoeting met Smart Industry.
+            </p>
             <Link to="/programma">
               <Button bsStyle="primary" bsSize="large">Bekijk het programma</Button>
             </Link>
@@ -19,39 +21,44 @@ export default class Home extends Component {
             <Col xs={12} sm={4} className="person-wrapper">
               <Panel>
                 <Panel.Heading>
-                  <Panel.Title>
-                    <Image src="assets/smartie.jpg" circle className="profile-pic" />
-                    <h3>Smarties</h3>
-                  </Panel.Title>
+                  <Link to="/smarties">
+                    <Panel.Title>
+                      <Image src="assets/smartie.jpg" circle className="profile-pic" />
+                      <h3>Ga naar Smarties</h3>
+                    </Panel.Title>
+                  </Link>
                 </Panel.Heading>
                 <Panel.Body>
-                  Onbegrijpelijk veel mensen hebben familiebetrekkingen, vrienden of kennissen te Amsterdam. Het is een verschijnsel dat ik eenvoudig toeschrijf aan de veelheid der inwoners van die hoofdstad. Ik had er voor een paar jaren nog een verre neef. Waar hij nu is, weet ik niet. Ik geloof dat hij naar de West gegaan is. Misschien heeft de een of ander van mijn lezers hem wel brieven meegegeven. In dat geval hebben zij een nauwgezette, maar onvriendelijke bezorger gehad, als uit de inhoud van deze weinige bladzijden waarschijnlijk duidelijk worden zal.
+                  <p>Deelnemers van de Minor Smart Industry delen hun visie op Smart Industry.</p>
                 </Panel.Body>
               </Panel>
             </Col>
             <Col xs={12} sm={4} className="person-wrapper">
               <Panel>
                 <Panel.Heading>
+                <Link to="/partners">
                   <Panel.Title>
                     <Image src="assets/partner.jpg" circle className="profile-pic" />
-                    <h3>Partners</h3>
+                    <h3>Ga naar Partners</h3>
                   </Panel.Title>
+                </Link>
                 </Panel.Heading>
                 <Panel.Body>
-                  Inderdaad, ik ken vele mensen, die nogal ophebben met hun Amsterdamse neven, vooral als ze tot 'Lezers in Felix behoren, of als ze een rijtuig houden; maar ik heb dikwijls verbaasd gestaan over mijn verregaande koelheid omtrent de persoon van mijn neef Nurks; en niets verschrikkelijker, dan wanneer hij mij zaterdagmiddag per diligence een steen stond met een brief er aan, inhoudende dat hij (mits het weer goedbleef en er niet, maar dat kwam er nooit, het een of ander in de weg kwam) met mij de dag in de Haarlemmerhout zou komen doorbrengen; niet dat ik iets tegen het gemelde bos heb, maar wel tegen ZEd.
-                </Panel.Body>
+                  <p>Partners van MSI wisselen ervaringen uit en vormen nieuwe Smart Allianties.</p></Panel.Body>
               </Panel>
             </Col>
             <Col xs={12} sm={4} className="person-wrapper">
               <Panel>
                 <Panel.Heading>
+                <Link to="/gasten">
                   <Panel.Title>
                     <Image src="assets/guest.jpg" circle className="profile-pic" />
-                    <h3>Gasten</h3>
+                    <h3>Ga naar Gasten</h3>
                   </Panel.Title>
+                </Link>
                 </Panel.Heading>
                 <Panel.Body>
-                  Toch kon ik bijan overtuigd zijn, dat mijn beminnelijke neef Nurks, de eerste maal dat hij er mij mee zag, met de hatelijkste glimlach van de wereld en met een soort van ontevreden verbaasdheid zeggen zou: 'Wat een weergase gekke hoed heb jij op.' - Nu is het onbegrijpelijk moeielijk - schoon ik gaarne beken dat de een zich daar handiger in gedraagt dan de ander, en ik niet een van de gauwsten ben - nu is het onbegrijpelijk moeielijk, onder een dergelijke kritische verklaring omtrent uw hoed, een tamelijk figuur te blijven maken. Het in ernst voor uw hoed op te nemen, is wat al te gek. Het met een: h?, vind je dat?' af te laten lopen, verraadt volslagen gemis van tegenwoordigheid van geest.
+                  <p>Kom langs en ontdek wat wij kunnen betekenen voor jouw Smart ambities.</p>
                 </Panel.Body>
               </Panel>
             </Col>

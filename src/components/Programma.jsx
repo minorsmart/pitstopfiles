@@ -1,23 +1,78 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
-import { Grid, Col, Image } from 'react-bootstrap'
+import { Grid, Row, Col, Image, Table } from 'react-bootstrap'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './Programma.css'
 
 export default class Programma extends Component {
     render() {
       return (
         <div>
-          <Image src="assets/program.jpg" className="header-image" />
+        <Image src="assets/smarties.jpg" className="header-image" />
           <Grid>
-            <Col xs={12} sm={8} smOffset={2}>
-              <Image src="assets/witek.png" className="about-profile-pic" />
-              <h2>Witek</h2>
-              <p>
-                Ik ben makelaar in koffi, en woon op de Lauriergracht No 37. Het is mijn gewoonte niet, romans te schrijven, of zulke dingen, en het heeft dan ook lang geduurd, voor ik er toe overging een paar riem papier extra te bestellen, en het werk aan te vangen, dat gij, lieve lezer, zoâven in de hand hebt genomen, en dat ge lezen moet als ge makelaar in koffie zijt, of als ge wat anders zijt. Niet alleen dat ik nooit iets schreef wat naar een roman geleek, maar ik houd er zelfs niet van, iets dergelijks te lezen, omdat ik een man van zaken ben.
+            <Row>
+              <Col xs={12} sm={8} className="main-section">
+                <h2>Smarties</h2>
+                  <h3>MSI Seminar</h3>
+                  <p>
+	                  We ontmoeten elkaar op <span className="special-text">VRIJDAG 11 JANUARI 2019</span> op de Verlengde Groenestraat 75 (Bisschop Hamerhuis) te Nijmegen in ruimte H021.
+										Het programma start met een projectmarkt waarop de verschillende teams en hun opdrachtgevers hun projecten tonen en aanwezig zijn
+										om een toelichting te geven. U kunt de verschillende stands bezoeken en u laten informeren en inspireren over de verschillende Smart Industry toepassingen.
+									</p>
+                  <p>
+                    De projectmarkt sluit om 11:15u. Daaropvolgend starten de Design Thinking sessies. Het doel van de sessies is om te komen tot een nieuwe set van projectencharters
+										voor de volgende ronde MSI die in februari van start gaat. Tussendoor zal een lichte lunch worden geserveerd.
+									</p>
+                  <h3>Pitstop</h3>
+                  <p>
+                    Om 13:00u sluiten we de Pitstop af. De uitkomsten van de Design Thinking sessies zullen verder worden uitgewerkt tot definitieve projectchaters. Deze zullen nogmaals ter
+										beoordeling worden voorgelegd bij de partners. Daarna zullen ze worden gedeeld met de nieuwe lichting <span className="special-text">SMARTIES</span>.
+									</p>
+                  <p>
+                    De charters dienen als uitgangspunt voor de Pitchdag op 13 februari 2019.
+									</p>
+                  <p>
 
-                Sedert jaren vraag ik mij af, waartoe zulke dingen dienen, en ik sta verbaasd over de onbeschaamdheid, waarmee een dichter of romanverteller u iets op de mouw durft spelden, dat nooit gebeurd is, en meestal niet gebeuren kan.Als ik in mijn vak -- ik ben makelaar in koffie, en woon op de Lauriergracht No 37 -- aan een principaal -- een principaal is iemand die koffie verkoopt -- een opgave deed, waarin maar een klein gedeelte der onwaarheden voorkwam, die in gedichten en romans de hoofdzaak uitmaken, zou hij terstond Busselinck & Waterman nemen.
-              </p>
-            </Col>
+									<Table striped bordered condensed hover>
+                    <thead>
+                      <tr>
+                        <th>Tijd</th>
+												<th>Activiteit</th>
+                        <th>Ruimte</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td><FontAwesomeIcon icon="lightbulb" /></td>
+                        <td>ontwikkelt een prototype van de oplossings(richting)</td>
+                      </tr>
+                      <tr>
+                        <td><FontAwesomeIcon icon="trophy" /></td>
+                        <td>draagt vanuit verschillende rollen bij aan het succes van een projectteam</td>
+                      </tr>
+                      <tr>
+                        <td><FontAwesomeIcon icon="comment-dots" /></td>
+                        <td>communiceert op effectieve wijze zijn bevindingen naar verschillende doelgroepen</td>
+                      </tr>
+                      <tr>
+                        <td><FontAwesomeIcon icon="sun" /></td>
+                        <td>draagt actief bij aan een optimale werksfeer sfeer binnen en buiten zijn team</td>
+                      </tr>
+                      <tr>
+                        <td><FontAwesomeIcon icon="globe" /></td>
+                        <td>ontwikkelt een professioneel netwerk</td>
+                      </tr>
+                    </tbody>
+                  </Table>
+                  </p>
+              </Col>
+              <Col xs={12} sm={4} className="sidebar-section">
+                <Image src="assets/person-laptop.jpg" className="profile-pic" />
+                <p>
+                  Ruimte inplannen voor informatie Pitchdag S2 met terugblik op oorspronkelijke pitches.
+                </p>
+              </Col>
+            </Row>
           </Grid>
         </div>
       )

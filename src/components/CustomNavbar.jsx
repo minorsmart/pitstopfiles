@@ -8,23 +8,23 @@ export default class CustomNavbar extends Component {
       return (
         <Navbar default collapseOnSelect>
           <Navbar.Header>
-            <Navbar.Brand>
-              <Link to="/">
-                <Image src="assets/logo.png" className="logo-pic" />
+            <Link to="/">
+              <Navbar.Brand>
+                <Image src="assets/logo.png" className="nav-logo" responsive />
+              </Navbar.Brand>
               </Link>
-            </Navbar.Brand>
             <Navbar.Toggle />
           </Navbar.Header>
           <Navbar.Collapse>
            <Nav pullRight>
             <NavItem eventKey={1} componentClass={ Link } href="/" to="/">
-              Home
+              Start
             </NavItem>
             <NavItem eventKey={2} componentClass={ Link } href="/programma" to="/programma">
               Programma
             </NavItem>
-            <NavItem eventKey={3} componentClass={ Link } href="/news" to="/news">
-              News
+            <NavItem eventKey={3} componentClass={ Link } href="/nieuws" to="/nieuws">
+              Nieuws
             </NavItem>
            </Nav>
           </Navbar.Collapse>
