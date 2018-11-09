@@ -8,7 +8,7 @@ export default class Programma extends Component {
     render() {
       return (
         <div>
-        <Image src="assets/smarties.jpg" className="header-image" />
+        <Image src="assets/time.jpg" className="header-image" />
           <Grid>
             <Row>
               <Col xs={12} sm={8} className="main-section">
@@ -16,8 +16,8 @@ export default class Programma extends Component {
                   <h3>MSI Seminar</h3>
                   <p>
 	                  We ontmoeten elkaar op <span className="special-text">VRIJDAG 11 JANUARI 2019</span> op de Verlengde Groenestraat 75 (Bisschop Hamerhuis) te Nijmegen in ruimte H021.
-										Het programma start met een projectmarkt waarop de verschillende teams en hun opdrachtgevers hun projecten tonen en aanwezig zijn
-										om een toelichting te geven. U kunt de verschillende stands bezoeken en u laten informeren en inspireren over de verschillende Smart Industry toepassingen.
+										Het programma start met een projectmarkt waarop de MSI teams en opdrachtgevers hun projecten tonen en aanwezig zijn
+										om een toelichting te geven. U kunt de stands bezoeken en u laten informeren en inspireren over de verschillende Smart Industry toepassingen.
 									</p>
                   <p>
                     De projectmarkt sluit om 11:15u. Daaropvolgend starten de Design Thinking sessies. Het doel van de sessies is om te komen tot een nieuwe set van projectencharters
@@ -31,46 +31,44 @@ export default class Programma extends Component {
                   <p>
                     De charters dienen als uitgangspunt voor de Pitchdag op 13 februari 2019.
 									</p>
-                  <p>
 
-									<Table striped bordered condensed hover>
-                    <thead>
-                      <tr>
-                        <th>Tijd</th>
-												<th>Activiteit</th>
-                        <th>Ruimte</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <td><FontAwesomeIcon icon="lightbulb" /></td>
-                        <td>ontwikkelt een prototype van de oplossings(richting)</td>
-                      </tr>
-                      <tr>
-                        <td><FontAwesomeIcon icon="trophy" /></td>
-                        <td>draagt vanuit verschillende rollen bij aan het succes van een projectteam</td>
-                      </tr>
-                      <tr>
-                        <td><FontAwesomeIcon icon="comment-dots" /></td>
-                        <td>communiceert op effectieve wijze zijn bevindingen naar verschillende doelgroepen</td>
-                      </tr>
-                      <tr>
-                        <td><FontAwesomeIcon icon="sun" /></td>
-                        <td>draagt actief bij aan een optimale werksfeer sfeer binnen en buiten zijn team</td>
-                      </tr>
-                      <tr>
-                        <td><FontAwesomeIcon icon="globe" /></td>
-                        <td>ontwikkelt een professioneel netwerk</td>
-                      </tr>
-                    </tbody>
-                  </Table>
-                  </p>
               </Col>
               <Col xs={12} sm={4} className="sidebar-section">
-                <Image src="assets/person-laptop.jpg" className="profile-pic" />
-                <p>
-                  Ruimte inplannen voor informatie Pitchdag S2 met terugblik op oorspronkelijke pitches.
-                </p>
+              <h3>Tijdschema</h3>
+
+							<Table striped bordered condensed hover>
+								<thead>
+									<tr>
+										<th>Tijd</th>
+										<th>Activiteit</th>
+										<th>Ruimte</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>10:00u</td>
+										<td>Ontvangst + Koffie</td>
+										<td>H021</td>
+									</tr>
+									<tr>
+										<td>10:15u</td>
+										<td>Opening projectmarkt</td>
+										<td>H021</td>
+									</tr>
+									<tr>
+										<td>11:15u</td>
+										<td>Design Thinking sessies</td>
+										<td>H021</td>
+									</tr>
+									<tr>
+										<td>13:00u</td>
+										<td>Einde Pitstop</td>
+										<td>H021</td>
+									</tr>
+								</tbody>
+							</Table>
+							<h3>Locatie</h3>
+							<iframe title="Verlengde Groenestraat 75, Nijmegen" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2465.7499252058465!2d5.860602815781821!3d51.82899857968917!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c708f720b3b44f%3A0x9d7c0291c70f5fa1!2sVerlengde+Groenestraat+75%2C+6525+EJ+Nijmegen!5e0!3m2!1sen!2snl!4v1541762853329" width="400" height="300" frameborder="0" allowfullscreen></iframe>
               </Col>
             </Row>
           </Grid>
