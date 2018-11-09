@@ -44,9 +44,10 @@ export default class Partners extends Component {
                     We willen hiervoor gaan werken met Smart Allianties rondom gezamenlijke vraagstukken.
                     In het bijgevoegde formulier kun je jouw ideëen voor het volgende project achterlaten.
                     Wij zullen alle aangeleverde projectensuggesties met elkaar vergelijken en onderwerpen die elkaar
-                    overlappen of complementair zijn groeperen.
+                    overlappen of complementair zijn groeperen. Tijdens de Design Thinking sessies zullen we trachten partners met vergelijkbare projectideeën aan dezelfde tafel te plaatsen.
+                    De uitkomsten van de sessies zullen worden gebruikt ter voorbereiding op de volgende <Link to="/nieuws">Pitchdag</Link>.
                   </p>
-                  <form action="https://formspree.io/wfth69@gmail.com" method="POST">
+                  <form action="https://formspree.io/witek.tenhove@han.nl" method="POST">
                     <FormGroup
                       controlId="formBasicText"
                     >
@@ -83,16 +84,6 @@ export default class Partners extends Component {
                        >Verstuur</Button>
                     </FormGroup>
                   </form>
-                  <hr/>
-                  <p>
-                    Tijdens de Design Thinking sessies zullen we trachten partners met vergelijkbare projectideeën aan dezelfde tafel te plaatsen.
-                    De uitkomsten van de sessies zullen worden gebruikt ter voorbereiding op de volgende <Link to="/nieuws">Pitchdag</Link>.
-                  </p>
-                  <p>
-                   <h3>Projectcompetenties</h3>
-                   <p>
-                   </p>
-                  </p>
               </Col>
             </Row>
           </Grid>

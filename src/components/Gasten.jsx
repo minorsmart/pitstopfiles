@@ -40,7 +40,7 @@ export default class Gasten extends Component {
                     Wij zullen alle aangeleverde projectensuggesties met elkaar vergelijken en onderwerpen die elkaar
                     overlappen of complementair zijn groeperen.
                   </p>
-                <form action="https://formspree.io/wfth69@gmail.com" method="POST">
+                <form action="https://formspree.io/witek.tenhove@han.nl" method="POST">
                   <FormGroup
                     controlId="formBasicText"
                   >
@@ -68,8 +68,8 @@ export default class Gasten extends Component {
                     />
                     <br/>
                     <FormControl.Feedback />
-                    <HelpBlock>Uw gegevens zullen uitsluitend worden gebruikt om
-                    u op de hoogte te houden van ontwikkelingen rondom de Pitstop.</HelpBlock>
+                    <HelpBlock>De gegevens zullen uitsluitend worden gebruikt om
+                    je op de hoogte te houden van ontwikkelingen rondom de Pitstop.</HelpBlock>
                     <Button
                       bsStyle="primary"
                       bsSize="large"
